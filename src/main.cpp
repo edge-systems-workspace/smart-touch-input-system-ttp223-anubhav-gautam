@@ -13,14 +13,11 @@ int touchPin = 3;
 
 
 void setup() {
-
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
     pinMode(touchPin, INPUT);
     pinMode(LED_BUILTIN, OUTPUT);
+    Serial.begin(9600);
 
 
-    
 }
 
 void loop() {
