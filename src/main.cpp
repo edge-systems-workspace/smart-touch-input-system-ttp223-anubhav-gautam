@@ -31,4 +31,5 @@ void loop() {
         Serial.println("Not Touch");
     }
     }
+    delay(500);
 }
